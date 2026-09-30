@@ -3,7 +3,7 @@
 # 🏥 Mediroza General Hospital
 ### Web Application Penetration Test
 
-**Week 4 Penetration Testing Internship · Batch B082**
+**Week 4 Penetration Testing Internship · Batch B083**
 
 *Confidential Security Assessment — Authorized Educational Engagement*
 
@@ -23,7 +23,7 @@
 
 ---
 
-> **Program:** NetworkWalks — Batch B082, Week 4 &nbsp;|&nbsp; **Client (simulated):** Mediroza General Hospital
+> **Program:** NetworkWalks — Batch B083, Week 4 &nbsp;|&nbsp; **Client (simulated):** Mediroza General Hospital
 > **Target:** [`https://medirozahospital.com`](https://medirozahospital.com)
 > **Note:** This is a training engagement carried out against a purpose-built lab target under NetworkWalks' Week 4 project brief, with written permission granted for testing as documented in the project scope. The techniques documented here must never be applied to any system without explicit written authorization.
 
