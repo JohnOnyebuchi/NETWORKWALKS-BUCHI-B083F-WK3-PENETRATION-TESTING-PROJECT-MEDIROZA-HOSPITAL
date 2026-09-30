@@ -29,4 +29,25 @@
 
 <p align="center">
 
+---
+## 🎯 Executive Summary
 
+A controlled **black-box penetration test** was conducted against Mediroza General Hospital's web infrastructure as part of a Week 4 penetration testing internship assignment.
+
+| | |
+|---|---|
+| 🌐 **Target** | `https://medirozahospital.com` |
+| 🏢 **Client** | Mediroza General Hospital |
+| 🧪 **Assessment Type** | Black-box Web Application Penetration Test |
+| ⏱️ **Duration** | 5 days |
+| ✅ **Authorization** | Explicitly authorized, educational scope only |
+| 🚫 **Excluded** | Social engineering, denial-of-service |
+
+### Objectives
+
+1. Gain access to the restricted patient portal
+2. Retrieve three confidential patient laboratory reports
+3. Crack the encryption protecting all three reports
+4. Identify exposed employee salary information
+5. Identify exposed shareholder information
+6. Document vulnerabilities, evidence, impact, and remediation
