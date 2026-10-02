@@ -187,6 +187,30 @@ Cracked on the second attempt against the same built-in wordlist: **`password`**
 
 Confirmed the brief's warning was well-founded — this password was neither `123456` nor `password`, but still fell to the same built-in dictionary: **`!@#$%^&`**.
 
+---
+
+![](Screenshot-report3-pathology.png
+)
+
+---
+
+
+
+| File | Patient | Password | Attempts |
+|---|---|---|---|
+| `patient_report_1.pdf` | Sipho Dlamini | `123456` | 1st |
+| `patient_report_2.pdf` | Priya Reddy | `password` | 2nd |
+| `patient_report_3.pdf` | Emily Thompson | `!@#$%^&` | Within built-in list |
+
+All three files were fully decrypted using nothing more than a hash extractor and a 100-word built-in dictionary — no custom wordlist, no character-by-character brute-forcing. This satisfies **Milestone 2**.
+
+---
+
+### Milestone 3 — Critical Data Exposure (Staff Salaries & Shareholders)
+
+Following the M3 brief to look beyond the obvious content, the `/staff/` and `/old/` paths flagged earlier by `robots.txt` were checked directly.
+
+**`/staff/` — directory listing exposed.** Instead of a proper 403/404, the server returned a full directory listing, exposing `staff/login.php` by name:
 
 
 
