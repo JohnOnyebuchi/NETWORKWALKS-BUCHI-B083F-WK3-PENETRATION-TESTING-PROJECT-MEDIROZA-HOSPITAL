@@ -235,10 +235,17 @@ The dump included full staff records — names, job titles, departments, contact
 
 ![](Screenshot-exposed-credentials2.png)
 
+---
 
+...and a separate `shareholders` table listing ownership stakes in the hospital:
 
+![](Screenshot-exposed-credential3.png)
 
+---
 
+This satisfies **Milestone 3**: both required data points — staff salaries and shareholder details — were fully recovered, sourced from an unauthenticated, publicly accessible backup file rather than any further exploitation of the login form.
+
+> ⚠️ **Handling note:** The dump contains real-format PII (national ID numbers, salaries, contact details). This should be redacted or excluded from any public-facing copy of this repository; it is retained here only as evidence for the training deliverable.
 
 
 
