@@ -227,6 +227,13 @@ The backup's own header comment flagged exactly what it contained — confidenti
 ![](Screenshot-exposed-credentials1.png
 )
 
+---
+
+The dump included full staff records — names, job titles, departments, contact details, national ID numbers, and **monthly salaries** for all 30 hospital employees:
+
+---
+
+![](Screenshot-exposed-credentials2.png)
 
 
 
