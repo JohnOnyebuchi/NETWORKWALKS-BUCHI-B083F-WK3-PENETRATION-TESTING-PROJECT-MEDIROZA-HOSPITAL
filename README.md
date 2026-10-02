@@ -122,13 +122,33 @@ This is effectively a self-authored map of the site's most sensitive areas, disc
 
 ---
 
-**Step 4 — Manual confirmation & exploitation.** A single `'` reproduced a SQL syntax anomaly, confirming unsanitized input reaching the database layer. The classic authentication-bypass payload was then submitted as the username, with any value as the password:
+**Step 4 — Manual confirmation & exploitation.** A single `'` reproduced a SQL syntax anomaly, confirming unsanitized input reaching the database layer.The classic authentication-bypass payload was then submitted as the username,with any value as the password:
+
+---
+![](Screenshot_2026-09-29_23_04_39.png)
 
 ---
 
+```
+Username: admin' --
+Password: anything
+```
 
+**Step 5 — Impact: unauthorized data access.** The bypass succeeded, granting access to "My Reports" — three password-protected pathology reports:
 
+---
 
+![](Screenshot-Data-Access.png)
+
+This closes out **Milestone 1**: proof of unauthorized access, plus the 3 target PDF files.
+
+---
+
+### Milestone 2 — Cracking the Encryption
+
+Each of the 3 downloaded PDFs opened with a password prompt, exactly as advertised on the portal itself ("Your reports are password protected"). Each file was treated as an independent target — the brief's own hint warned not to assume one approach would fit all three.
+
+**`patient_report_1.pdf` — Sipho Dlamini**
 
 
 
