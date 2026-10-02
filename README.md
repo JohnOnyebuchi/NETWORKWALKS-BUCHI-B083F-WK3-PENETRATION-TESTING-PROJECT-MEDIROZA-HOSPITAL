@@ -224,7 +224,9 @@ The backup's own header comment flagged exactly what it contained — confidenti
 
 ---
 
-!
+![](Screenshot-exposed-credentials1.png
+)
+
 
 
 
