@@ -150,6 +150,41 @@ Each of the 3 downloaded PDFs opened with a password prompt, exactly as advertis
 
 **`patient_report_1.pdf` — Sipho Dlamini**
 
+![](Screenshot-record1-passcode.png)
+
+---
+
+A hash was extracted locally and run through a dictionary attack — cracked on the first attempt: **`123456`**.
+
+![](Screenshot-record1-pathology.png)
+
+---
+
+
+**`patient_report_2.pdf` — Priya Reddy**
+
+--
+
+![](Screenshot-record2-passcode.png)
+
+---
+
+Cracked on the second attempt against the same built-in wordlist: **`password`**.
+
+---
+
+![](Screenshot-report2-pathology.png)
+
+
+
+
+
+
+
+
+
+
+
 
 
 
