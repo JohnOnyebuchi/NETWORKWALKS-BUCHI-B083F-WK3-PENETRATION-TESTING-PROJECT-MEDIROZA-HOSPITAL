@@ -104,4 +104,5 @@ This is effectively a self-authored map of the site's most sensitive areas, disc
 
 ![](Screenshot-site-xml.png)
 
+**Step 2 — Browser reconnaissance.** The `/patient/login.php` path flagged by `robots.txt` was opened directly in a browser:
 
