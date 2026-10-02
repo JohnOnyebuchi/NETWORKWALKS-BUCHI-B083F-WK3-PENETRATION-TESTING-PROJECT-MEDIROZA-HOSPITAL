@@ -402,6 +402,20 @@ This penetration test was conducted as part of an **authorized educational secur
 
 ---
 
+## 👤 Author
+
+**Sunday John Onyebuchi**
+
+Cybersecurity Professional
+
+LinkedIn:https://www.linkedin.com/in/john-onyebuchi-7324223bb?utm_source=share_via&utm_content=profile&utm_medium=member_android
+
+---
+
+## 📌 Project Information
+
+**Program Name:** Cybersecurity at Networkwalks | **Week:** 04 | **Project:** Penetration Testing  | **Repository:** GitHub
+
 
 
 
