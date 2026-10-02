@@ -100,13 +100,39 @@ Phase 6  Further Exposure Analysis → /old/ backup discovery → HR & sharehold
 
 ![](Screenshot-robots.png)
 
+
+---
+
 This is effectively a self-authored map of the site's most sensitive areas, discovered before a single page was manually browsed. The `sitemap.xml` referenced at the bottom of `robots.txt` was checked too, but only listed the public marketing pages (`index`, `about`, `doctors`, `contact`) — confirming the sensitive paths were deliberately excluded from the "official" map rather than simply forgotten:
 
 ![](Screenshot-site-xml.png)
 
+
+---
+
 **Step 2 — Browser reconnaissance.** The `/patient/login.php` path flagged by `robots.txt` was opened directly in a browser:
 
 ![](Screenshot_2026-09-29_23_04_11.png)
+
+---
+
+**Step 3 — Baseline login test (username enumeration found).** A plausible-but-invalid username was submitted to observe normal application behavior, producing an explicit **"Username not found"** message — a secondary finding on its own, since the application validates username existence before checking the password:
+
+![](Screenshot-baseline-login-test.png)
+
+---
+
+**Step 4 — Manual confirmation & exploitation.** A single `'` reproduced a SQL syntax anomaly, confirming unsanitized input reaching the database layer. The classic authentication-bypass payload was then submitted as the username, with any value as the password:
+
+---
+
+
+
+
+
+
+
+
 
 
 
