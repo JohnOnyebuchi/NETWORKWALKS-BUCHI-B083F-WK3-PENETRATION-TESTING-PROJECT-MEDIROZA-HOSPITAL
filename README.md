@@ -212,6 +212,27 @@ Following the M3 brief to look beyond the obvious content, the `/staff/` and `/o
 
 **`/staff/` — directory listing exposed.** Instead of a proper 403/404, the server returned a full directory listing, exposing `staff/login.php` by name:
 
+---
+
+**`/old/` — a far more serious exposure.** The same misconfiguration on `/old/` revealed a publicly downloadable historical database backup, `mediroza_db_backup_2019.sql`
+
+![](Screenshot-curl-old.png)
+
+---
+
+The backup's own header comment flagged exactly what it contained — confidential staff and shareholder records:
+
+---
+
+!
+
+
+
+
+
+
+
+
 
 
 
