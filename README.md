@@ -183,7 +183,9 @@ Cracked on the second attempt against the same built-in wordlist: **`password`**
 
 ![](Screenshot-report3-passcode.png)
 
+---
 
+Confirmed the brief's warning was well-founded — this password was neither `123456` nor `password`, but still fell to the same built-in dictionary: **`!@#$%^&`**.
 
 
 
