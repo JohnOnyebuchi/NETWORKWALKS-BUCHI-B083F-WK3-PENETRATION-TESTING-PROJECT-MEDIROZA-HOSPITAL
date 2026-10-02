@@ -175,9 +175,13 @@ Cracked on the second attempt against the same built-in wordlist: **`password`**
 
 ![](Screenshot-report2-pathology.png)
 
+---
 
 
+**`patient_report_3.pdf` — Emily Thompson**
 
+
+![](Screenshot-report3-passcode.png)
 
 
 
